@@ -52,9 +52,6 @@ return [
             'prefix' => '',
         ],
 
-# database.php  config file
-# file START ommited
-
         'mysql' => [
             'driver'    => 'mysql',
             'host'      => env('DB_HOST', env('OPENSHIFT_MYSQL_DB_HOST', 'localhost')),
@@ -67,8 +64,6 @@ return [
             'prefix'    => '',
             'strict'    => false,
         ],
-
-# file END ommited
 
         'pgsql' => [
             'driver' => 'pgsql',
